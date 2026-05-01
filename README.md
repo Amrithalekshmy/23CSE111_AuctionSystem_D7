@@ -1,10 +1,10 @@
 # 23CSE111_AuctionSystem_D7
 Project title: Online Auction System
 
-Team members (with roles):Amrithalekshmy G(),
-                          Arya S(),
-                          Ganga T Viswakumar(),
-                          Gloria S Mathew()
+Team members (with roles):Amrithalekshmy G(Java Developer),
+                          Arya S(Java Developer),
+                          Ganga T Viswakumar(Java Developer),
+                          Gloria S Mathew(Java Developer)
                           
 Problem description:Traditional auction processes require physical presence and manual bid tracking, which is inefficient, error-prone, and geographically limited. An online auction system removes these barriers by automating the bidding process digitally. The goal of this project is to design and implement an Online Auction System using Java that demonstrates the core principles of Object-Oriented Programming.
 
