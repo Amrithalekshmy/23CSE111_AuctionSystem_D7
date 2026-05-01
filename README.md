@@ -11,16 +11,16 @@ Problem description:Traditional auction processes require physical presence and 
 How to run the code: Java Development Kit (JDK) 17 or above installed
                     Any Java IDE — IntelliJ IDEA, Eclipse, or VS Code with Java extension or a terminal with javac and java 
                     
-└── src/
-    ├── Database.java
-    ├── User.java
-    ├── Seller.java
-    ├── Buyer.java
-    ├── Admin.java
-    ├── Item.java
-    ├── Bid.java
-    ├── Auction.java
-    └── Main.java
+->src/
+    - Database.java
+    - User.java
+    - Seller.java
+    - Buyer.java
+    - Admin.java
+    - Item.java
+    - Bid.java
+    - Auction.java
+    - Main.java
     Open the project in your IDE and set the src folder as the source root.
     Run Main.java — it contains the full auction simulation scenario.
     
