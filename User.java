@@ -49,10 +49,14 @@ public abstract class User {
         return null;
     }
 
-    public int getUserId()                      { return userId; }
-    public String getName()                     { return name; }
-    public String getPassword()                 { return password; }
-    public ArrayList<String> getPersonalInfo()  { return personalInfo; }
+    public int getUserId()        
+    { return userId; }
+    public String getName()                   
+    { return name; }
+    public String getPassword()                
+    { return password; }
+    public ArrayList<String> getPersonalInfo()  
+    { return personalInfo; }
 
    
 }
