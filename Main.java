@@ -22,7 +22,7 @@ public class Main {
         Buyer  j  = (Buyer)  User.login("Judy", "j893");
         Buyer  r = (Buyer)  User.login("River", "river308");
 
-        // Safety check — stop if login failed
+        
         if (t == null || j == null || r == null) {
             System.out.println("Login failed.");
             return;
