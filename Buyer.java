@@ -60,7 +60,7 @@ public class Buyer extends User {
             return false;
         }
 
-        // Step 3 — validate bid amount
+    
         if (amount <= targetItem.getCurrentBid()) {
             System.out.println("Bid failed — your bid -" + amount
                              +" must be higher than current bid - "
