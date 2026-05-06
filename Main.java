@@ -36,7 +36,7 @@ public class Main {
 
         System.out.println("\n========== ADMIN APPROVES ITEM ==========");
 
-        Admin admin = new Admin(909, "admin1234");
+        Admin admin = new Admin(909, "admin#06-04");
         admin.approveProducts(headset.getItemId());
 
 
