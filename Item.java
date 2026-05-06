@@ -16,26 +16,27 @@ public class Item {
     public Item(int itemId, String itemName, String description,
                 double startingPrice, int sellerId) {
 
-        this.itemId        = itemId;
-        this.itemName      = itemName;
-        this.description   = description;
+        this.itemId = itemId;
+        this.itemName = itemName;
+        this.description = description;
         this.startingPrice = startingPrice;
-        this.currentBid    = startingPrice; 
-        this.isApproved    = false;         
-        this.sellerId      = sellerId;
+        this.currentBid= startingPrice; 
+        this.isApproved = false;         
+        this.sellerId = sellerId;
     }
 
     
     public Map<String, Object> displayDetails() {
 
         Map<String, Object> details = new LinkedHashMap<>();
-        details.put("Item ID",        itemId);
-        details.put("Name",           itemName);
-        details.put("Description",    description);
+        details.put("Item ID", itemId);
+        details.put("Name", itemName);
+        details.put("Description", description);
         details.put("Starting Price", startingPrice);
-        details.put("Current Bid",    currentBid);
-        details.put("Approved",       isApproved);
-        details.put("Seller ID",      sellerId);
+        details.put("Current Bid", currentBid);
+        details.put("Approved", isApproved);
+        details.put("Seller ID", 
+                    sellerId);
         return details;
     }
 
